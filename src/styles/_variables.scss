@@ -1,0 +1,103 @@
+$prefix: kwii;
+
+// Animation
+$ease-base-out: cubic-bezier(0.7, 0.3, 0.1, 1);
+$ease-base-in: cubic-bezier(0.9, 0, 0.3, 0.7);
+$ease-out: cubic-bezier(0.215, 0.61, 0.355, 1);
+$ease-in: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+$ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
+$ease-out-back: cubic-bezier(0.12, 0.4, 0.29, 1.46);
+$ease-in-back: cubic-bezier(0.71, -0.46, 0.88, 0.6);
+$ease-in-out-back: cubic-bezier(0.71, -0.46, 0.29, 1.46);
+$ease-out-circ: cubic-bezier(0.08, 0.82, 0.17, 1);
+$ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.34);
+$ease-in-out-circ: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+$ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+$ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+$ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
+
+// Border
+$border-radius-lg: 6px;
+$border-radius-xl: $border-radius-lg * 2;
+$border-radius-page: 16px;
+$border-radius-base: 4px;
+$border-color: var(--border);
+$border-1: 1.3px solid $border-color;
+
+// Colors
+$bg-secondary: #dfd3d330;
+$primary: #dfd4d330;
+$bg-2: var(--background-secondary);
+$text-white: #ffffff;
+$text-color: var(--text-color);
+$text-color-inverse: var(--text-color-inverse);
+$text-color-secondary: e;
+$primary-color: var(--accent);
+$primary-op-8: rgba(73, 79, 177, 0.08);
+$heading-color: var(--heading-color);
+$disabled-color: var(--disabled-color);
+$tooltip-bg: var(--tooltip-bg);
+$danger-color: #ff4d4f;
+$success-color: #36a593;
+$transparent: rgba(0, 0, 0, 0);
+$color-primary: darkgoldenrod;
+$color-secondary: #000016;
+$color-bg-primary: darkgoldenrod;
+$color-bg-secondary: #000016;
+
+// Font-size
+$fs-page: 1rem * 2; // 32px (default)
+$fs-text-sm-1: 1rem * 0.5; // 8px (default)
+$fs-text-sm-2: 1rem * 0.625; // 10px (default)
+$fs-text-sm-3: 1rem * 0.75; // 12px (default)
+$fs-text-sm-4: 1rem * 0.875; // 14px (default)
+$fs-text-1: 1rem; // 16px (default)
+$fs-text-2: 1rem * 1.125; // 18px (default)
+$fs-text-3: 1rem * 1.25; // 20px (default)
+$fs-text-4: 1rem * 1.5; // 24px (default)
+$fs-text-5: 1rem * 2; // 32px (default)
+$fs-text-6: 1rem * 2.125; // 34px (default)
+$fs-text-7: 1rem * 2.25; // 36px (default)
+$fs-text-8: 1rem * 2.5; // 40px (default)
+
+// Font-Family
+$font-family: "Inter", sans-serif;
+
+// Font weights
+$fw-3: 300;
+$fw-4: 400;
+$fw-5: 500;
+$fw-6: 600;
+$fw-7: 700;
+
+// vertical paddings
+$padding-xl-4: 40px; // containers
+$padding-xl-3: 36px; // containers
+$padding-xl-2: 32px; // containers
+$padding-xl-1: 28px; // containers
+$padding-xl: 24px; // containers
+$padding-lg: 20px; // containers
+$padding-md: 16px; // small containers and buttons
+$padding-sm: 12px; // Form controls and items
+$padding-xs: 8px; // small items
+$padding-xss: 4px; // more small
+
+// margins paddings
+$margin-xl-4: 40px; // containers
+$margin-xl-3: 36px; // containers
+$margin-xl-2: 32px; // containers
+$margin-xl-1: 28px; // containers
+$margin-xl: 24px; // containers
+$margin-lg: 20px; // containers
+$margin-md: 16px; // small containers and buttons
+$margin-sm: 12px; // Form controls and items
+$margin-xs: 8px; // small items
+$margin-xss: 4px; // more small
+
+// Box Shadow
+$box-shadow-inverse-1: var(--box-shadow-inverse-1);
+$box-shadow-inverse-2: var(--box-shadow-inverse-2);
+$box-shadow-inverse-3: var(--box-shadow-inverse-3);
+$box-shadow-1: var(--box-shadow-1);
+$box-shadow-2: var(--box-shadow-1);
+$box-shadow-3: var(--box-shadow-3);
