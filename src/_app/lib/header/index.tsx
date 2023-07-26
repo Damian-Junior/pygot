@@ -5,6 +5,7 @@ import UserDetails from "../../../components/_shared/user-details/index";
 import { Hamburger } from "../../../_shared/assets/svg";
 import { AppContext } from "../../app-context/index";
 import { ConfigProvider, theme } from "antd";
+import { DarkIcon, LightIcon } from "../../../_shared/assets/svg/index";
 
 type HeaderProps = {
   setToggleSidebar?: Dispatch<SetStateAction<boolean>>;
@@ -42,7 +43,7 @@ const Header = ({ setToggleSidebar, toggleSidebar }: HeaderProps) => {
               onClick={() => setIsDarkMode((prevState) => !prevState)}
               style={{ color: "#000" }}
             >
-              {isDarkMode ? "Light" : "Dark"}
+              {isDarkMode ? <LightIcon /> : <DarkIcon />}
             </div>
             <NotificationContainer />
             <UserDetails userData={{ email: "emmydollar98@gmail.com" }} />

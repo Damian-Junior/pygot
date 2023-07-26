@@ -11,8 +11,12 @@ import StoreIcon from "./StoreNavIcon.svg";
 import MenuIcon from "./MenuIcon.svg";
 import OrderIcon from "./OrderIcon.svg";
 import PaymentIcon from "./PaymentIcon.svg";
+import DarkIcon from "./DarkIcon.svg";
+import LightIcon from "./LightIcon.svg";
 export {
   StoreIcon,
+  LightIcon,
+  DarkIcon,
   PaymentIcon,
   OrderIcon,
   MenuIcon,

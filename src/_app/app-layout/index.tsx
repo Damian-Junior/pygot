@@ -1,4 +1,3 @@
-"use client";
 
 import React, { ReactElement, useContext } from "react";
 import AppSider from "../lib/app-sider/index";
