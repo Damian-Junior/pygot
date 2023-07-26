@@ -1,6 +1,5 @@
 import { MenuProps } from "antd";
 import { MailOutlined, SettingOutlined } from "@ant-design/icons/lib";
-import React from "react";
 import {
   App1,
   App2,
@@ -9,7 +8,9 @@ import {
   OrderIcon,
   PaymentIcon,
   StoreIcon,
-} from "../../../../../_shared/assets/svg";
+} from "../../../../../_shared/assets/svg/index";
+import React from "react";
+
 
 export const SiderItems: MenuProps["items"] = [
   {
